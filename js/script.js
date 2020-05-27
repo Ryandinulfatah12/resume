@@ -20,5 +20,5 @@ $(document).on('click', 'a', function(event){
 });
 
 $('#github').on('click', function (e) {
-    window.open('https://github.com/Ryandinulfatah12',"_blank");
+    window.open('https://github.com/Ryandinulfatah12?tab=repositories',"_blank");
 });
