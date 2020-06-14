@@ -44,7 +44,7 @@
               More
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item page-scroll" href="#portfolio">Skill</a>
+              <a class="dropdown-item page-scroll" href="#skill">Skill</a>
               <a class="dropdown-item page-scroll" href="#project">My Project</a>
             </div>
           </li>
@@ -53,6 +53,8 @@
     </div>  
   </nav>
   <!--Akhir Navbar-->
+
+  <!-- awal hero -->
   <section class="home" id="home">
     <div class="jumbotron jumbotron-fluid">
 		<div class="carve">
@@ -66,6 +68,7 @@
 		</div>
     </div>
   </section>
+  <!-- akhir hero -->
 
 
   <!--awal content-->
@@ -105,183 +108,61 @@
   </section>
   <!--akhir about-->
 
-  <!--portfolio-->
-  <section class="skill pt-5 pb-5" id="portfolio">
+  <!--skill-->
+  <section class="skill pt-5 pb-5" id="skill">
     <div class="container">
       <h1 class="mb-3 wow bounceInDown" data-wow-duration='3s'>Skill</h1>
       <hr>
-      <div class="col">
-      	<span class="badge badge-dark wow fadeInLeft" data-wow-duration='3s'>English</span>
-        <div class="progress wow fadeInLeft" data-wow-duration='3s'>
-          <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
-        </div>
-        <span class="badge badge-dark wow fadeInLeft" data-wow-duration='3s'>HTML + CSS (Bootstrap Framerwork)</span>
-        <div class="progress wow fadeInLeft" data-wow-duration='3s'>
-          <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-        </div>
-        <span class="badge badge-dark wow fadeInLeft" data-wow-duration='3s'>PHP + MYSQL (Laravel Framework)</span>
-        <div class="progress wow fadeInLeft" data-wow-duration='3s'>
-          <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-        </div>
-        <span class="badge badge-dark wow fadeInLeft" data-wow-duration='3s'>Java</span>
-        <div class="progress wow fadeInLeft" data-wow-duration='3s'>
-          <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-        </div>
-        <span class="badge badge-dark wow fadeInRight" data-wow-duration='3s'>Javascript</span>
-        <div class="progress wow fadeInLeft" data-wow-duration='3s'>
-          <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-        </div>
-        <span class="badge badge-dark wow fadeInRight" data-wow-duration='3s'>Content Write</span>
-        <div class="progress wow fadeInLeft" data-wow-duration='3s'>
-          <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
-        </div>
-        <span class="badge badge-dark wow fadeInRight" data-wow-duration='3s'>Design</span>
-        <div class="progress wow fadeInLeft" data-wow-duration='3s'>
-          <div class="progress-bar bg-primary" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-        </div>
-      </div>
+
+      <div class="row" id="skill_saya"></div>
+
     </div>
   </section>
 
-  <!--akhir portfolio-->
+  <!--akhir skill-->
 
   <!--project-->
   <section class="project pt-5 pb-5 justify-content-center" id="project">
     <div class="container">
       <h1 class="pb-3 wow bounceInDown text-center" data-wow-duration='3s'>My Portfolio</h1>
 
-      <div class="card brd wow bounceInLeft mb-4" data-wow-duration='3s'>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-4">
-              <img class="img-thumbnail" src="img/content/codespace.png" alt="Codespace Project">
-            </div>
-            <div class="col">
-              <h3>Codespace</h3>
-              <span class="badge badge-dark">Laravel + REST API</span>
-              <p class="blockquote">Aplikasi web yang terintegrasi dengan API HERE Maps melalui studi kasus pembuatan aplikasi daftar lokasi tempat ngoding yang asyik.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div id="portfolio_saya"></div>
 
-      <div class="card brd wow bounceInRight mb-4" data-wow-duration='3s'>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-4">
-              <img class="img-thumbnail" src="img/content/adu.png" alt="Project Pengaduan Masyarakat">
-            </div>
-            <div class="col">
-              <h3>Aplikasi Pengaduan Masyarakat</h3>
-              <span class="badge badge-dark">Laravel Project</span>
-              <p class="blockquote">Aplikasi ini merupakan aplikasi yang dapat mengelola pendataan pengaduan dari masyarakat, selain dibuat sesimple mungkin, aplikasi ini juga lumayan dapat bekerja dengan baik untuk dibilang sebuah Aplikasi Pengaduan Masyarakat.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card brd wow bounceInLeft mb-4" data-wow-duration='3s'>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-4">
-              <img class="img-thumbnail" src="img/content/resto.png" alt="Project Restourant">
-            </div>
-            <div class="col">
-              <h3>Aplikasi Kasir Restourant Management</h3>
-              <p class="text-secondary"></p>
-              <span class="badge badge-dark">Laravel Project</span>
-              <p class="blockquote">Aplikasi Kasir Restourant Management System yang dibuat oleh Saya (Ryan Dinul Fatah) Untuk memenuhi tugas Sekolah tepatnya Project Akhir UJIKOM 2020 saya di SMKN 1 Padaherang ini.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card brd wow bounceInRight mb-4" data-wow-duration='3s'>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-4">
-              <img class="img-thumbnail" src="img/content/IMG-20190926-WA0004.jpg" alt="Project IoT">
-            </div>
-            <div class="col">
-              <h3>Sistem pendeteksi dini pergerakan tanah longsor</h3>
-              <span class="badge badge-dark">Internet of Things (IoT) Project</span>
-              <p class="blockquote">Sistem pendeteksi dini pergerakan tanah longsor SMKN 1 padaherang yang telah saya buat untuk PAMERAN SMK KARYA INOVASI (anak PKL) di STMIK AKAKOM YOGYAKARTA, alat pendeteksi yang bisa dimonitoring melalui web dengan REALTIME.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-	<a id="github" href="#" target="_blank" class="btn btn-outline-secondary">See Other</a>
+      <a id="github" href="#" target="_blank" class="btn btn-outline-secondary">See Other</a>
+      
     </div>
   </section>
-    <!--akhir contact-->
+  <!--akhir project-->
 
+  <!-- sertifikat -->
   <section class="cert pt-5 pb-5">
     <div class="container-fluid">
 
       <h1 class="pb-3 wow bounceInDown text-white" data-wow-duration='3s'>My Appreciation</h1>
       <hr>
 
-      <div class="row">
-      	<div class="col-3 col-md-3">
-      		<a href="img/cert/dicoding_web_2.png" data-lightbox="image-1" data-title="Fundamental Front-end Development Dicoding"><img class="img-fluid img-thumbnail sert" src="img/cert/dicoding_web_2.png"></a>
-      	</div>
-
-      	<div class="col-3 col-md-3">
-      		<a href="img/cert/dicoding_web.png" data-lightbox="image-1" data-title="Kelas Dasar Pemrograman Web Dicoding"><img class="img-fluid img-thumbnail sert" src="img/cert/dicoding_web.png"></a>
-      	</div>
-
-      	<div class="col-3 col-md-3">
-      		<a href="img/cert/eng.png" data-lightbox="image-1" data-title="Basic English Online Course for Programmer YEC.CO.ID"><img class="img-fluid img-thumbnail sert" src="img/cert/eng.png"></a>
-      	</div>
-
-      	<div class="col-3 col-md-3">
-      		<a href="img/cert/google.png" data-lightbox="image-1" data-title="Fundamental Digital Marketing Google Digital Garage"><img class="img-fluid img-thumbnail sert" src="img/cert/google.png"></a>
-      	</div>
-	      
-	      <div class="col-3 col-md-3">
-      		<a href="img/cert/codepol.png" data-lightbox="image-1" data-title="Course HERE Developer Codepolitan"><img class="img-fluid img-thumbnail sert" src="img/cert/codepol.png"></a>
-        </div>
-        
-        <div class="col-3 col-md-3">
-          <a href="img/cert/solid.png" data-lightbox="image-1" data-title="Kelas Belajar Prinsip Pemrograman SOLID Dicoding"><img class="img-fluid img-thumbnail sert" src="img/cert/solid.png"></a>
-        </div>	
+      <div id="sertifikat" class="row">
+      		
       </div>
       <h5 class="text-white pt-3">Still continue...</h5>
       
     </div>
   </section>
+  <!-- akhir sertifikat -->
 
+  <!-- awal sosmed -->
   <section class="social pt-5 pb-5">
-    <div class="container">
-      <h1 class="wow bounceInDown" data-wow-duration='3s'>Follow me</h1>
+    <div class="container-fluid">
+      <h1 class="wow bounceInDown" data-wow-duration='3s'>Find me on</h1>
       <hr>
-      <div class="row justify-content-center">
-        <div class="col">
-          <a class="wow fadeInLeftBig" data-wow-duration='3s' href="https://wa.me/6288229019740" target="_blank"><img src="img/icon/whatsapp.png" alt="Contact Me"></a>
-        </div>
-        <div class="col">
-          <a class="wow fadeInLeftBig" data-wow-duration='3s' href="https://www.instagram.com/ryandinulfatah12/" target="_blank"><img src="img/icon/instagram.png" alt="My instagram account"></a>
-        </div>
-        <div class="col">
-          <a class="wow fadeInLeftBig" data-wow-duration='3s' href="https://web.facebook.com/ryan.dinulfatah" target="_blank"><img src="img/icon/facebook.png" alt="My facebook Account"></a>
-        </div>
-        <div class="col">
-          <a class="wow fadeInDown" data-wow-duration='3s' href="https://id.pinterest.com/rdinulfatah12/" target="_blank"><img src="img/icon/pinterest.png" alt="My pinterest Account"></a>
-        </div>
-        <div class="col">
-          <a class="wow fadeInRightBig" data-wow-duration='3s' href="https://www.linkedin.com/in/ryan-dinul-fatah-2177ab198/" target="_blank"><img src="img/icon/linkedin.png" alt="My linkedin Account"></a>
-        </div>
-        <div class="col">
-          <a class="wow fadeInRightBig" data-wow-duration='3s' href="https://www.youtube.com/channel/UCZsmoNL12lW3QIUYj0DBuoQ" target="_blank"><img src="img/icon/youtube.png" alt="My Personal Channel"></a>
-        </div>
-        
-      </div>
+      <div class="row justify-items-center" id="social_media"></div>
     </div>
   </section>
+  <!-- akhir sosmed -->
 
   <!--akhir content-->
 
-  <div id="test"></div>
+  <div class="row" id="test"></div>
 
   <!--footer-->
     <footer>
