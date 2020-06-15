@@ -75,8 +75,8 @@ const skill = [
 
 skill.forEach((i) => {
     $("#skill_saya").append(`
-    <div class="col-4 col-md-4">
-        <div class="progressBar">
+    <div class="col-md-4">
+        <div class="progressBar p-2">
         <h4>`+ i.skill +`</h4>
         <div class="progressBarContainer">
             <div class="progressBarValue value-`+ i.persentase +`">`+ i.persentase +`%</div>
